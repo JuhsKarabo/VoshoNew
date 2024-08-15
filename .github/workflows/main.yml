@@ -1,6 +1,6 @@
 name: Vercel Deployment
 env:
-    VERCEL_ORG_ID: ${{secrets.KB_ORG_ID}}
+    VERCEL_ORG_ID: ${{secrets.KB_ORG}}
     VERCEL_PROJECT_ID: ${{secrets.KB_PROJECT_ID}}
 
 on:
